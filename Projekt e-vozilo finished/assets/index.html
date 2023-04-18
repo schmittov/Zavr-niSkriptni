@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+      <!-- navigacija -->
+      <header>
+        
+        <nav class="nav-primary">
+          <ul class="ul-primary">
+            <li class="name li-primary">Rent a e-veichle</li>
+          </ul>  
+
+          <ul class="ham ul-primary" id="ham"> 
+            <div>
+              <div class="bar"></div>
+              <div class="bar bar2"></div>
+              <div class="bar"></div>
+            </div>
+            
+          </ul>
+    
+          <ul class="ul-primary">
+            <li class="li-primary" id="company">O tvrtci</li>
+            <li class="li-primary" id="veichle">Vozila</li>
+            <li class="li-primary" id="contact">Kontakt</li>
+            <li class="li-primary" id="myBtn">Login</li>
+          </ul>
+        </nav>
+        
+        <!-- <div class="nav-ham" id="nav-ham">
+          <ul>
+            <li class="li-ham" id="companyHam">O tvrtci</li>
+            <li class="li-ham" id="veichleHam">Vozila</li>
+            <li class="li-ham" id="contactHam">Kontak</li>
+            <li class="li-ham" id="myBtnHam">Login</li>
+          </ul>
+        </div> -->
+
+      </header>
+      
+
+
+    <!-- Prva sekcija naslovna -->
+    <section class="section section_one">
+        <img class="background background_img background_img_one" src="./slike/Snimka zaslona 2023-01-06 232921.jpg">
+            <div class="cover_text naslov naslov_one">Istraži Hrvatsku uz najbolja vozila</div>
+        <p class="naslov naslov_two">O tvrtci</p>
+        <p class="opis">Rent a vehicle je prva tvrtka u Hrvatskoj koja omogućuje ljudima iznajmljivanje samo električnih vozila kako bi svak imao pristup odgoarajućem vozilu uz povoljnu cijenu te uz minimalan štetni učinak na priodu.</p>
+    </section>
+    <hr>
+
+    <!-- Druga sekcija ponude vozila -->
+    <section class="section section_two">
+        <div class="naslov naslov_two">Vozila za Vas</div>
+        <div class="wrapper wrapper_two">
+            
+          <div class="option automobil" id="vozilo-auto">
+                <div class="naslov btnNaslov">E-auto</div>
+                  <img class="vozilo vozilo_automobil" src="./slike/e-car.jpg">
+                <div class="opis">Vozilo pogodno za razgledavanje grada i njegove okolice.
+                    Pri tom uživajte u udobnosti vozila. Otiđite s njim na izlet oko grada ili na drugi kraj države.</div>
+            </div>
+
+            <div class="option romobil">
+                <div class="naslov">E-bicikl</div>     
+                  <img class="vozilo vozilo_automobil" src="./slike/e-bicycle.jpg">
+                <div class="opis">Vozilo pogodno za razgledavanje grada i šire okolice, bez velikog napora
+                  Ako želite uživati u ljepotama i prirodi oko i unutar grada, bez puno umora, onda je e-bicikl prava stvar za Vas.</p>
+                </div>
+            </div>
+
+            <div class="option bicikl">
+                <div class="naslov">E-romobil</div>
+                  <img class="vozilo vozilo_automobil" src="./slike/e-scooter.jpg">
+                <div class="opis">Vozilo pogodno za uske ulice gradske jezgre. Na njemu će te stići u kratkom vremenu obići svaki kutak grada.</div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="section section_three">
+      <table class="price-table automobil-table">
+       
+        <tr class="sadrzaj">
+            <th></th>
+            <th>e-tron</th>
+            <th>Clio</th>
+            <th>ID.3</th>
+        </tr>
+        
+        <tbody>
+        <tr class="sadrzaj">
+            <th>1 dan </th>
+            <td>50 €</td>
+            <td>25 €</td>
+            <td>30 €</td>
+        </tr>
+        <tr class="sadrzaj">
+            <th>3 dana </th>
+            <td>125 €</td>
+            <td>60 €</td>
+            <td>80 €</td>
+        </tr>
+        <tr class="sadrzaj">
+            <th>7 dana </th>
+            <td>300 €</td>
+            <td>150 €</td>
+            <td>180 €</td> 
+        </tr>
+    </tbody>
+    </table>
+    <table class="price-table bicikl-table">
+       
+        <tbody>
+        <tr class="sadrzaj">
+            <th></th>
+            <th>750 W</th>
+            <th>500 W</th>
+            <th>250 W</th>
+        </tr>
+        <tr class="sadrzaj">
+            <th>1 dan</th>
+            <td>20 €</td>
+            <td>25 €</td>
+            <td>40 €</td>
+        </tr>
+        <tr class="sadrzaj">
+            <th>3 dana</th>
+            <td>50 €</td>
+            <td>60 €</td>
+            <td>100 €</td>
+        </tr>
+        <tr class="sadrzaj">
+            <th>7 dana</th>
+            <td>100 €</td>
+            <td>130 €</td>
+            <td>250 €</td> 
+        </tr>
+    </tbody>
+    </table>
+      <table class="price-table romobil-table">
+        
+        <tbody>
+        <tr class="sadrzaj">
+            <th></th>
+            <th>500 W</th>
+            <th>250 W</th>
+            <th>125 W</th>
+        </tr>
+        <tr class="sadrzaj">
+            <th>1 dan </th>
+            <td>20 €</td>
+            <td>25 €</td>
+            <td>40 €</td>
+        </tr>
+        <tr class="sadrzaj">
+            <th>3 dana </th>
+            <td>50 €</td>
+            <td>60 €</td>
+            <td>100 €</td>
+        </tr>
+        <tr class="sadrzaj">
+            <th>7 dana </th>
+            <td>100 €</td>
+            <td>130 €</td>
+            <td>250 €</td> 
+        </tr>
+    </tbody>
+    </table>
+    </section>
+    <!-- Sekcija četiri Pošaljite poruku -->
+    <section class="section section_four">
+        <img class="background background_img background_img_four" src="./slike/kontakt-slika.jpg">
+      
+        <div class="cover_text">
+            <h1 class="title title_four">Pošaljite nam poruku</h1>
+
+            <form class="one">
+                <!-- <label class="mail mail-title msg-title" for="mail">Email</label>
+                <input class="mail" type="text" id="mail-msg" placeholder="example@provider.com"> 
+                
+                <label class="title msg-title" for="mail">Naslov</label>
+                <input class="title " type="text" id="title-msg" placeholder="Naslov poruke">  -->
+                
+                <textarea id="poruka" name="message" cols="8" rows="4" placeholder="Vaša poruka..." required></textarea>
+                <button type="submit" id="submit" class="kontakt-button">Pošalji</button>
+                
+            </form>
+               
+          </div>
+
+    </section>
+    <hr>
+
+    <footer>
+        <div class="container">    
+            <div class=" wrapper_footer">
+                <div class="box services">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Download</a></li>
+                        </ul>
+                </div>
+                    
+                <div class="box about">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                  </div>
+            </div>
+                  
+            <div class="box careers">
+                        <h3>Learn more</h3>
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Job openings</a></li>
+                        </ul>
+            </div>
+
+            <div class="company"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">Mario Mitov © 2023</p>
+            </div>
+                    
+            <div class="social">
+                <a href="https://instagram.com">
+                  <div class="circle circle_instagram" >
+                    <ion-icon class="logo" name="logo-instagram"></ion-icon>
+                  </div>
+                </a>
+
+                <a href="https://facebook.com">
+                  <div class="circle circle_facebook">
+                    <ion-icon class="logo" name="logo-facebook"></ion-icon>
+                  </div>
+                </a>
+
+                <a href="https://youtube.com">
+                  <div class="circle circle_youtube">
+                    <ion-icon class="logo" name="logo-youtube"></ion-icon>
+                  </div>
+                </a>
+
+                <a href="https://twitter.com">
+                  <div class="circle circle_twitter">
+                    <ion-icon class="logo" name="logo-twitter"></ion-icon>
+                  </div> 
+                </a>            
+            </div>
+
+          </div>
+      </footer>
+    
+      <!-- POPUP login -->
+      <div class="login_window">
+      <div class="login_form popup" id="myModal">
+        <div class="exit popup close" id="close">&#10005;</div>
+        <div class="title popup">Log in</div>
+        <div>
+            <form class="popup">
+                <label class="mail popup" for="mail">Email</label>
+                <input id="mail-modal"class="mail popup popup_input" type="text" id="mail" placeholder="example@provider.com"> 
+                
+                <label class="password popup" for="password">Password</label>
+                <input id="password-modal" class="password popup popup_input" type="password" id="password" placeholder="Your password">
+                
+            </form>
+        </div>
+        
+        <div class="forgot popup">Forgot password?</div>
+        <div class="button popup">
+            <button class="login popup" id="submitModal">LOGIN</button>
+        </div>
+        
+      </div>
+      </div>
+      <!-- over -->
+    
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./script.js"></script>
+
+   
+</body>
+</html>
